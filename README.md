@@ -1,5 +1,4 @@
 # terraform
-🦖
 
 ## Table of Contents
 
