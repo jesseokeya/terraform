@@ -31,34 +31,6 @@ Instructions and examples on how to use the project.
 Use [Mermaid](https://mermaid-js.github.io/) to create a diagram of the project's architecture.
 
 ```mermaid
-graph LR
-A[Service A] --> B[Service B]
-A --> C[Service C]
-B --> D[Service D]
-C --> D
-B --> E[Service E]
-C --> F[Service F]
-D --> G[Service G]
-E --> G
-F --> G
-
-subgraph Databases
-H[MySQL]
-I[PostgreSQL]
-J[MongoDB]
-K[Redis]
-end
-
-B --> H
-C --> I
-D --> J
-D --> K
-E --> J
-F --> I
-G --> K
-```
-
-```mermaid
 graph TB
 A[User] --> B[Frontend 1]
 A --> C[Frontend 2]
